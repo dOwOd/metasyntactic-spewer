@@ -1,6 +1,6 @@
 {
   "name": "@dowod/metasyntactic-spewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "テスト用に公開するnpmパッケージのリポジトリ",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
