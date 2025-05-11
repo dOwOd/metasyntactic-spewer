@@ -1,0 +1,28 @@
+{
+  "name": "@dowod/metasyntactic-spewer",
+  "version": "1.0.0",
+  "description": "テスト用に公開するnpmパッケージのリポジトリ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna": "lerna",
+     "lerna_version": "lerna -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dOwOd/metasyntactic-spewer.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dOwOd/metasyntactic-spewer/issues"
+  },
+  "homepage": "https://github.com/dOwOd/metasyntactic-spewer#readme",
+  "devDependencies": {
+    "lerna": "^8.2.2"
+  }
+}

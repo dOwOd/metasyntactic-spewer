@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - ~/.ssh:/root/.ssh:ro
+      - node_modules:/app/node_modules
+      - /run/host-services/ssh-auth.sock:/tmp/agent.sock
+    environment:
+      - SSH_AUTH_SOCK=/tmp/agent.sock
+volumes:
+  node_modules:
