@@ -1,0 +1,26 @@
+{
+  "name": "@dowod/fuga-spewer",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "dowod",
+  "homepage": "https://github.com/dOwOd/metasyntactic-spewer/tree/main/packages/fuga-spewer#readme",
+  "license": "ISC",
+  "main": "lib/fuga-spewer.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dOwOd/metasyntactic-spewer.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/fuga-spewer.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/dOwOd/metasyntactic-spewer/issues"
+  }
+}
