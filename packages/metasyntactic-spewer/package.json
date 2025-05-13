@@ -1,6 +1,6 @@
 {
   "name": "metasyntactic-spewer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "dowod",
   "homepage": "https://github.com/dOwOd/metasyntactic-spewer/tree/main/packages/metasyntactic-spewer#readme",
@@ -24,7 +24,7 @@
     "url": "https://github.com/dOwOd/metasyntactic-spewer/issues"
   },
   "dependencies": {
-    "fuga-spewer": "^0.0.0",
-    "hoge-spewer": "^0.0.0"
+    "fuga-spewer": "^1.0.0",
+    "hoge-spewer": "^1.0.0"
   }
 }
