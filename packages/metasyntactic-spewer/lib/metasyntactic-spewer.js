@@ -8,7 +8,7 @@ const metasyntacticSpewer = () => {
     const hoge = hogeSpewer()
     const fuga = fugaSpewer()
     const metasyntacticVariables = [hoge, fuga]
-    return `Metasyntactic variables: ${metasyntacticVariables.join(', ')}`
+    return `Metasyntactic variables: [${metasyntacticVariables.join(', ')}]`
   }
 }
 
