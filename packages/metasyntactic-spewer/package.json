@@ -1,6 +1,6 @@
 {
   "name": "@dowod/metasyntactic-spewer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "dowod",
   "homepage": "https://github.com/dOwOd/metasyntactic-spewer/tree/main/packages/metasyntactic-spewer#readme",
@@ -16,6 +16,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dOwOd/metasyntactic-spewer.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "test": "node ./__tests__/metasyntactic-spewer.test.js"
