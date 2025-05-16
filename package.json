@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/dOwOd/metasyntactic-spewer.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "workspaces": [
     "packages/*"
   ],
